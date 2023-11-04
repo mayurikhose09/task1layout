@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(66, 27, 103);
+    width: 100%;
+
+}
+h1,h3{
+    color: white;
+    text-align: center;
+padding: 10px;
+}
+table{
+    width:80%;
+    height: 500px;
+    margin: auto;
+    border: 1px solid rgb(41, 4, 77);
+    
+}
+th{
+    color: rgb(119, 24, 207);
+}
+tr{
+    color: white;
+
+}
+tr:hover td:last-child{
+    background-color: yellow;
+    color: black;
+       
+
+}
+td{
+    padding-left: 20px;
+}
+td:first-child {
+    color: rgb(230, 55, 55);
+}
+tr:hover{
+    background-color: rgb(167, 164, 164);
+}
+
